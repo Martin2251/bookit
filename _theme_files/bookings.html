@@ -14,31 +14,31 @@
     />
   </head>
   <body>
-    <header class="bg-gray-100">
-      <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="flex h-16 items-center justify-between">
-          <div class="flex items-center">
+    <header className="bg-gray-100">
+      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between">
+          <div className="flex items-center">
             <a href="/">
-              <img class="h-12 w-12" src="images/logo.svg" alt="Bookit" />
+              <img className="h-12 w-12" src="images/logo.svg" alt="Bookit" />
             </a>
-            <div class="hidden md:block">
-              <div class="ml-10 flex items-baseline space-x-4">
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
                 <a
                   href="/"
-                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
                 >
                   Rooms
                 </a>
                 <!-- Logged In Only -->
                 <a
                   href="/bookings.html"
-                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
                 >
                   Bookings
                 </a>
                 <a
                   href="/add-room.html"
-                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
                 >
                   Add Room
                 </a>
@@ -46,16 +46,16 @@
             </div>
           </div>
           <!-- Right Side Menu -->
-          <div class="ml-auto">
-            <div class="ml-4 flex items-center md:ml-6">
+          <div className="ml-auto">
+            <div className="ml-4 flex items-center md:ml-6">
               <a href="my-rooms.html">
-                <i class="fa fa-building"></i> My Rooms
+                <i className="fa fa-building"></i> My Rooms
               </a>
               <a
                 href="login.html"
-                class="mx-3 text-gray-800 hover:text-gray-600"
+                className="mx-3 text-gray-800 hover:text-gray-600"
               >
-                <i class="fa fa-sign-out"></i> Sign Out
+                <i className="fa fa-sign-out"></i> Sign Out
               </a>
             </div>
           </div>
@@ -63,24 +63,24 @@
       </nav>
 
       <!-- Mobile menu -->
-      <div class="md:hidden">
-        <nav class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+      <div className="md:hidden">
+        <nav className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
           <a
             href="/"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
           >
             Rooms
           </a>
           <!-- Logged In Only -->
           <a
             href="/bookings.html"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
           >
             Bookings
           </a>
           <a
             href="/add-room.html"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
+            className="block rounded-md px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-700 hover:text-white"
           >
             Add Room
           </a>
@@ -88,37 +88,37 @@
       </div>
     </header>
 
-    <main class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-      <section class="bg-white mb-5 shadow px-4 py-4">
-        <h1 class="text-2xl font-bold tracking-tight text-gray-900">
+    <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <section className="bg-white mb-5 shadow px-4 py-4">
+        <h1 className="text-2xl font-bold tracking-tight text-gray-900">
           Bookings
         </h1>
       </section>
       <!-- Booking 1 -->
       <div
-        class="bg-white shadow rounded-lg p-4 mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center"
+        className="bg-white shadow rounded-lg p-4 mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center"
       >
         <div>
-          <h4 class="text-lg font-semibold">Training Room</h4>
-          <p class="text-sm text-gray-600">
+          <h4 className="text-lg font-semibold">Training Room</h4>
+          <p className="text-sm text-gray-600">
             <strong>Check In:</strong> July 5, 2024 11:00am
           </p>
-          <p class="text-sm text-gray-600">
+          <p className="text-sm text-gray-600">
             <strong>Check Out:</strong> July 5, 2024 1:00pm
           </p>
         </div>
         <div
-          class="flex flex-col sm:flex-row w-full sm:w-auto sm:space-x-2 mt-2 sm:mt-0"
+          className="flex flex-col sm:flex-row w-full sm:w-auto sm:space-x-2 mt-2 sm:mt-0"
         >
           <a
             href="room.html"
-            class="bg-blue-500 text-white px-4 py-2 rounded mb-2 sm:mb-0 w-full sm:w-auto text-center hover:bg-blue-700"
+            className="bg-blue-500 text-white px-4 py-2 rounded mb-2 sm:mb-0 w-full sm:w-auto text-center hover:bg-blue-700"
           >
             View Room
           </a>
           <button
             href="#"
-            class="bg-red-500 text-white px-4 py-2 rounded w-full sm:w-auto text-center hover:bg-red-700"
+            className="bg-red-500 text-white px-4 py-2 rounded w-full sm:w-auto text-center hover:bg-red-700"
           >
             Cancel Booking
           </button>
